@@ -31,12 +31,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <SidebarProvider>
-      <AppSidebar />
-      <main>
-        <SidebarTrigger />
-        {children}
-      </main>
-    </SidebarProvider>
+          <AppSidebar />
+          <main className="w-screen">
+            <SidebarTrigger />
+            <div className="relative w-full mx-auto">{children}</div>
+          </main>
+        </SidebarProvider>
       </body>
     </html>
   );

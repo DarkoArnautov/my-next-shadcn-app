@@ -1,5 +1,3 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
-
 import {
   Sidebar,
   SidebarContent,
@@ -9,36 +7,27 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
+} from "@/components/ui/sidebar";
 
 // Menu items.
 const items = [
   {
     title: "Home",
-    url: "#",
-    icon: Home,
+    url: "/",
   },
   {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
+    title: "Accordion",
+    url: "/accordion",
   },
   {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
+    title: "Alert",
+    url: "/alert",
   },
   {
-    title: "Search",
-    url: "#",
-    icon: Search,
+    title: "Alert Dialog",
+    url: "/alert-dialog",
   },
-  {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
-  },
-]
+];
 
 export function AppSidebar() {
   return (
@@ -52,7 +41,6 @@ export function AppSidebar() {
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
                     <a href={item.url}>
-                      <item.icon />
                       <span>{item.title}</span>
                     </a>
                   </SidebarMenuButton>
@@ -63,5 +51,5 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
     </Sidebar>
-  )
+  );
 }
