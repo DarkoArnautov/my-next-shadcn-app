@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 export const ButtonExample = () => {
   return (
-    <div className="h-screen w-full flex items-center justify-center">
+    <div className="example-container">
       <Button>Button</Button>
     </div>
   );

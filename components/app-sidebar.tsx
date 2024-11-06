@@ -59,6 +59,78 @@ const items = [
     title: "Carousel",
     url: "/carousel",
   },
+  {
+    title: "Chart",
+    url: "/chart",
+  },
+  {
+    title: "Checkbox",
+    url: "/checkbox",
+  },
+  {
+    title: "Collapsible",
+    url: "/collapsible",
+  },
+  {
+    title: "Combobox",
+    url: "/combobox",
+  },
+  {
+    title: "Command",
+    url: "/command",
+  },
+  {
+    title: "Context Menu",
+    url: "/context-menu",
+  },
+  {
+    title: "Data Table",
+    url: "/data-table",
+  },
+  {
+    title: "Date Picker",
+    url: "/date-picker",
+  },
+  {
+    title: "Dialog",
+    url: "/dialog",
+  },
+  {
+    title: "Drawer",
+    url: "/drawer",
+  },
+  {
+    title: "Dropdown Mneu",
+    url: "/dropdown-menu",
+  },
+  {
+    title: "Form",
+    url: "/form",
+  },
+  {
+    title: "Hover Card",
+    url: "/hover-card",
+  },
+  {
+    title: "Input",
+    url: "/input",
+  },
+  {
+    title: "Input OTP",
+    url: "/input-otp",
+  },
+  {
+    title: "Label",
+    url: "/label",
+  },
+  {
+    title: "Menubar",
+    url: "/menubar",
+  },
+  {
+    title: "Navigation Menu",
+    url: "/navigation-menu",
+  },
 ];
 
 export function AppSidebar() {

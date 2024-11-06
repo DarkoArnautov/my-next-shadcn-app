@@ -19,7 +19,7 @@ import {
 
 export const CardExample = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="example-container">
       <Card className="w-[350px]">
         <CardHeader>
           <CardTitle>Create project</CardTitle>

@@ -4,7 +4,7 @@ import { useState } from "react";
 export const CalendarExample = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="example-container">
       <Calendar
         mode="single"
         selected={date}

@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 export const AlertDialogExamplge = () => {
   return (
-    <div className="h-screen w-full flex justify-center items-center">
+    <div className="example-container">
       <AlertDialog>
         <AlertDialogTrigger asChild>
           <Button variant="outline">Show Dialog</Button>

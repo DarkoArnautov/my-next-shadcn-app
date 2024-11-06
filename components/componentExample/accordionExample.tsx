@@ -7,7 +7,7 @@ import {
 
 export const AccordionExample = () => {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="example-container">
       <Accordion type="single" collapsible className="w-96">
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>

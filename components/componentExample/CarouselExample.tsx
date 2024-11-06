@@ -9,7 +9,7 @@ import {
 
 export const CarouselExample = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="example-container">
       <Carousel className="w-full max-w-xs">
         <CarouselContent>
           {Array.from({ length: 5 }).map((_, index) => (
