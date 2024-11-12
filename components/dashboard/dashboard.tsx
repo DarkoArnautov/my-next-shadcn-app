@@ -1,34 +1,29 @@
-import { Metadata } from "next"
-import Image from "next/image"
+import { Metadata } from "next";
+import Image from "next/image";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs"
-import { CalendarDateRangePicker } from "@/components/dashboard/date-range-picker"
-import { MainNav } from "@/components/dashboard/main-nav"
-import { Overview } from "@/components/dashboard/overview"
-import { RecentSales } from "@/components/dashboard/recent-sales"
-import { Search } from "@/components/dashboard/search"
-import TeamSwitcher from "@/components/dashboard/team-switcher"
-import { UserNav } from "@/components/dashboard/user-nav"
+} from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { CalendarDateRangePicker } from "@/components/dashboard/date-range-picker";
+import { MainNav } from "@/components/dashboard/main-nav";
+import { Overview } from "@/components/dashboard/overview";
+import { RecentSales } from "@/components/dashboard/recent-sales";
+import { Search } from "@/components/dashboard/search";
+import TeamSwitcher from "@/components/dashboard/team-switcher";
+import { UserNav } from "@/components/dashboard/user-nav";
 
 export const metadata: Metadata = {
   title: "Dashboard",
   description: "Example dashboard app built using the components.",
-}
+};
 
-export const  Dashboard = () => {
+export const Dashboard = () => {
   return (
     <>
       <div className="md:hidden">
@@ -209,5 +204,5 @@ export const  Dashboard = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};

@@ -131,6 +131,86 @@ const items = [
     title: "Navigation Menu",
     url: "/navigation-menu",
   },
+  {
+    title: "Pagination",
+    url: "/pagination",
+  },
+  {
+    title: "Popover",
+    url: "/popover",
+  },
+  {
+    title: "Progress",
+    url: "/progress",
+  },
+  {
+    title: "Radio Group",
+    url: "/radio-group",
+  },
+  {
+    title: "Resizable",
+    url: "/resizable",
+  },
+  {
+    title: "Scroll Area",
+    url: "/scroll-area",
+  },
+  {
+    title: "Select",
+    url: "/select",
+  },
+  {
+    title: "Seperator",
+    url: "/seperator",
+  },
+  {
+    title: "Sheet",
+    url: "/sheet",
+  },
+  {
+    title: "Skeleton",
+    url: "/skeleton",
+  },
+  {
+    title: "Slider",
+    url: "/slider",
+  },
+  {
+    title: "Sooner",
+    url: "/sooner",
+  },
+  {
+    title: "Switch",
+    url: "/switch",
+  },
+  {
+    title: "Table",
+    url: "/table",
+  },
+  {
+    title: "Tabs",
+    url: "/tabs",
+  },
+  {
+    title: "Textarea",
+    url: "/textarea",
+  },
+  {
+    title: "Toast",
+    url: "/toast",
+  },
+  {
+    title: "Toggle",
+    url: "/toggle",
+  },
+  {
+    title: "Toggle Group",
+    url: "/toggle-group",
+  },
+  {
+    title: "Tooltip",
+    url: "/tooltip",
+  },
 ];
 
 export function AppSidebar() {
