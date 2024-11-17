@@ -31,6 +31,14 @@ const items = [
     title: "Mail",
     url: "example/mail",
   },
+  {
+    title: "Music",
+    url: "example/music",
+  },
+  {
+    title: "Playground",
+    url: "example/playground",
+  },
 ];
 
 export const AppSidebar = () => {
