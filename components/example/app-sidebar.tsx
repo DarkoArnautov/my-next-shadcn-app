@@ -25,7 +25,7 @@ const items = [
   },
   {
     title: "Card",
-    url: "example/card",
+    url: "example/cards",
   },
 ];
 
