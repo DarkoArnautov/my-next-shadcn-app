@@ -19,6 +19,14 @@ const items = [
     title: "Dashboard",
     url: "example/dashboard",
   },
+  {
+    title: "Authentication",
+    url: "example/authentication",
+  },
+  {
+    title: "Card",
+    url: "example/card",
+  },
 ];
 
 export const AppSidebar = () => {
