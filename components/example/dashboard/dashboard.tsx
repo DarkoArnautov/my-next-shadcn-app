@@ -10,13 +10,13 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { CalendarDateRangePicker } from "@/components/dashboard/date-range-picker";
-import { MainNav } from "@/components/dashboard/main-nav";
-import { Overview } from "@/components/dashboard/overview";
-import { RecentSales } from "@/components/dashboard/recent-sales";
-import { Search } from "@/components/dashboard/search";
-import TeamSwitcher from "@/components/dashboard/team-switcher";
-import { UserNav } from "@/components/dashboard/user-nav";
+import TeamSwitcher from "./team-switcher";
+import { MainNav } from "./main-nav";
+import { Search } from "./search";
+import { UserNav } from "./user-nav";
+import { CalendarDateRangePicker } from "./date-range-picker";
+import { Overview } from "./overview";
+import { RecentSales } from "./recent-sales";
 
 export const metadata: Metadata = {
   title: "Dashboard",

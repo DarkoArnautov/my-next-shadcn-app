@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/sidebarExample/app-sidebar";
+import { AppSidebar } from "@/components/example/app-sidebar";
 
 export const metadata: Metadata = {
   title: "Create Next App",

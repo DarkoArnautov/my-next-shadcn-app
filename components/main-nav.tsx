@@ -23,6 +23,12 @@ export function MainNav({
       >
         Sidebar
       </Link>
+      <Link
+        href="/example"
+        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+      >
+        Example
+      </Link>
     </nav>
   );
 }
