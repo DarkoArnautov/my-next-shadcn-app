@@ -27,6 +27,10 @@ const items = [
     title: "Card",
     url: "example/cards",
   },
+  {
+    title: "Mail",
+    url: "example/mail",
+  },
 ];
 
 export const AppSidebar = () => {
