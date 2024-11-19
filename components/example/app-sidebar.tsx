@@ -39,6 +39,14 @@ const items = [
     title: "Playground",
     url: "example/playground",
   },
+  {
+    title: "Tasks",
+    url: "example/tasks",
+  },
+  {
+    title: "Forms",
+    url: "example/forms",
+  },
 ];
 
 export const AppSidebar = () => {
